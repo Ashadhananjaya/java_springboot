@@ -31,7 +31,7 @@ public class demo {
         //for encapsulation hiding we are  protecting by using private.. so we can use those variables only by using  method which will be in same cls to access or defien value we will use object and pass value through method so we are combining both variable and method so its encapsulation
         Human obj=new Human();
        obj.setAge(30);
-       obj.setAge(40);
+      
        obj.setNmae("Ashaa");
         System.out.println(obj.getAge()+": "+obj.getName());
     }
