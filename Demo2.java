@@ -6,6 +6,7 @@ public A(){
    
         System.out.println("in B int");
     }
+  
 }
 class B extends A{
     public B(){
@@ -26,6 +27,7 @@ class B extends A{
 public class Demo2 {
     public static void main(String args[]){
         B obj=new B(5);
+        
     }
 
     
